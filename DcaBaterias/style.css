@@ -1476,6 +1476,26 @@ p {
   color: var(--white);
 }
 
+.call-action .cta-box {
+  border: 1px solid rgba(255,255,255,.25);
+  color: var(--white );
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin-bottom: 12px;
+  text-align: center;
+
+  font-weight: 500;
+  white-space: nowrap;
+
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+
+.call-action .cta-box:hover {
+  transform: scale(1.04);
+  box-shadow: 0 10px 25px rgba(0,0,0,.2);
+}
+
+
 
 
 /*===== latest-news-area =====*/
